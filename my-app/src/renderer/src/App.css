@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: white;
+  }
+  
+  h1 {
+    color: #333;
+  }
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 145px;
+}
+
+.form {
+    background-color: white;
+    width: 700px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bodyForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 58px;
+}
+
+.inputName, .inputPassword {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+}
+
+.button {
+    margin: 70px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: black;
+}
+
+.fa-eye-slash {
+    position: absolute;
+    margin-top: 98px;
+    margin-left: 340px;
+    cursor: pointer;
+    color: black;
+    font-size: 13px;
+}
+
+.fa-eye {
+    position: absolute;
+    margin-top: 98px;
+    margin-left: 340px;
+    cursor: pointer;
+    color: black;
+    font-size: 13px;
+    display: none;
+}
+
+.messageSucessfully {
+    width: 450px;
+    height: 100px;
+    background-color: gray;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    margin-top: -350px;
+    border-radius: 20px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s, 0.5s;
+}
+
+.messageSucessfully.show {
+    opacity: 1;
+    visibility: visible;
+    margin-top: -150px;
+}
