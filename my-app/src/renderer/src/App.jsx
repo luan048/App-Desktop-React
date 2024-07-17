@@ -58,6 +58,20 @@ function App() {
         </div>
       </div>
 
+      <div className="form1">
+        <h1>Olá, Novo Usuário</h1>
+        <div className="bodyForm">
+          <p>Este é o meu aplicativo de desktop usando Electron</p>
+          <p>Your name:</p>
+          <input type="text" id="inputName" className="inputName" placeholder="Name" />
+          <p>Password</p>
+          <input type="password" id="inputPassword" className="inputPassword" placeholder="Ex: 123456" />
+          <FontAwesomeIcon icon={faEyeSlash} onClick={visibilityPassword} id="eye-slash" className="eye-icon fa-solid fa-eye-slash" />
+          <FontAwesomeIcon icon={faEye} onClick={visibilityPassword} id="eye" className="eye-icon fa-solid fa-eye" />
+          <button className="button" onClick={messageSucessfully}>Enviar</button>
+        </div>
+      </div>
+
     </div>
   );
 }

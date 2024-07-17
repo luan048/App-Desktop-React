@@ -1,5 +1,7 @@
 import './assets/main.css'
 
+//Se pode mudar o icon pelo JSON
+
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
