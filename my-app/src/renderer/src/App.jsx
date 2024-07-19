@@ -69,6 +69,7 @@ function App() {
           <FontAwesomeIcon icon={faEyeSlash} onClick={visibilityPassword} id="eye-slash" className="eye-icon fa-solid fa-eye-slash" />
           <FontAwesomeIcon icon={faEye} onClick={visibilityPassword} id="eye" className="eye-icon fa-solid fa-eye" />
           <button className="button" onClick={messageSucessfully}>Enviar</button>
+          <p className="teste">Teste Teste</p>
         </div>
       </div>
 
